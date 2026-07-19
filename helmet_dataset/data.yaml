@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['helmet', 'motor', 'no-helmet', 'person']
+
+roboflow:
+  workspace: project-5oigw
+  project: helmet-detection-motor
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-5oigw/helmet-detection-motor/dataset/4

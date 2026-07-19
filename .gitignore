@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# YOLO
+runs/
+
+# Model weights (optional)
+# models/*.pt
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Output files
+output_video.mp4
+output_image.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
