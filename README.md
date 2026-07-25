@@ -90,18 +90,7 @@ Current classes:
 
 ---
 
-## Future Improvements
-- Improved dataset
-- Higher model accuracy
-- Rider-Helmet matching
-- Vehicle tracking
-- Violation screenshot capture
-- License plate recognition
-- Deployment on Streamlit Cloud
-
----
-
-## Screenshots
+## Application Results
 
 ### Image Detection
 
@@ -110,6 +99,54 @@ Current classes:
 ### Video Detection
 
 ![Video Detection](screenshots/video_detection.png)
+
+---
+
+## 📈 Model Training Results
+
+The YOLO model was trained on a custom helmet detection dataset. The following visualizations summarize the model's training performance and evaluation.
+
+### Training Metrics
+
+The figure below shows the model's learning progress throughout training, including training loss, validation loss, precision, recall, mAP@50, and mAP@50-95.
+
+![Training Results](training_results/results.png)
+
+---
+
+### Confusion Matrix
+
+The confusion matrix illustrates how accurately the trained YOLO model classified each object category.
+
+![Confusion Matrix](training_results/confusion_matrix.png)
+
+---
+
+### Normalized Confusion Matrix
+
+The normalized confusion matrix provides a percentage-based view of prediction accuracy across all classes.
+
+![Normalized Confusion Matrix](training_results/confusion_matrix_normalized.png)
+
+---
+
+### Dataset Label Distribution
+
+This visualization summarizes the distribution of object labels and bounding box locations within the training dataset.
+
+![Dataset Labels](training_results/labels.jpg)
+
+---
+
+## Future Improvements
+
+- Improved dataset
+- Higher model accuracy
+- Rider-Helmet matching
+- Vehicle tracking
+- Violation screenshot capture
+- License plate recognition
+- Deployment on Streamlit Cloud
 
 ---
 
