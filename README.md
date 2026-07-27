@@ -2,6 +2,14 @@
 
 An AI-powered Helmet Detection System built using **YOLOv8**, **Streamlit**, and **OpenCV**.
 
+## 🌐 Live Demo
+
+🚀 **Try the live application here:**
+
+**https://helmet-detection-system.streamlit.app/**
+
+---
+
 ## Features
 
 - 🖼️ Image Detection
@@ -48,8 +56,8 @@ YOLO-Project/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOLO-Project.git
-cd YOLO-Project
+git clone https://github.com/JAIKRISHNA2007/helmet-detection-system.git
+cd helmet-detection-system
 ```
 
 Install dependencies:
@@ -146,7 +154,6 @@ This visualization summarizes the distribution of object labels and bounding box
 - Vehicle tracking
 - Violation screenshot capture
 - License plate recognition
-- Deployment on Streamlit Cloud
 
 ---
 
